@@ -87,6 +87,13 @@
   line-height: 1.9;
   cursor: pointer;
 }
+@media screen and (min-width: 1200px) {
+  .menu-container {
+    display: flex;
+
+    justify-content: space-between;
+  }
+}
 @media screen and (max-width: 1199px) {
   .content-box .hero {
     padding-top: 118px;
