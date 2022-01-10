@@ -163,16 +163,14 @@ a {
     display: none;
   }
   .menu-container.is-open {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .menu-container .menu-toggle {
     position: absolute;
     top: 10px;
     right: 15px;
-  }
-
-  .submenu {
-    margin-bottom: 300px;
   }
 
   .submenu__list {
@@ -444,7 +442,7 @@ a {
 }
 
 @media screen and (max-width: 1199px) {
-  .hero {
+  .content-box .hero {
     padding-top: 118px;
     padding-bottom: 118px;
   }
