@@ -141,7 +141,7 @@ a {
     left: 0;
     padding: 48px 40px;
     width: 100vw;
-    height: 796px;
+    height: 100vh;
     background: var(--auxiliary-color);
     z-index: 999;
     display: none;
@@ -156,7 +156,7 @@ a {
   }
 
   .submenu {
-    margin-bottom: 302px;
+    margin-bottom: 300px;
   }
 
   .submenu__list {
@@ -189,10 +189,10 @@ a {
   .contacts {
     display: flex;
     flex-direction: column-reverse;
+    margin-bottom: 64px;
   }
 
   .contacts__mail {
-    margin-bottom: 64px;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
