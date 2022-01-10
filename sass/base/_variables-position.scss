@@ -5,6 +5,12 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+@media screen and (max-width: 1199px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 @media screen and (max-width: 767px) {
   .container {
     display: block;
@@ -22,8 +28,8 @@
   }
 }
 .section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 h1,
 h2,
